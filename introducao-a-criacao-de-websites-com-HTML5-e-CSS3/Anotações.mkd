@@ -29,3 +29,17 @@ Não foram criados na versão 5, mas servem muito bem no propósito de trazer se
 < h1 > - < h6 > são essenciais pra indicar visualmente a importância e localização de seções de texto na página. Mas para textos maiores e mais densos, utilizamos o elemento < p > que significa parágrafo e suporta outros elementos além de texto.
 
 Outro elemento muito interessante e extremamente necessário na web é o < a > que é uma âncora e interliga vários conteúdos na web. O elemento < a > tem vários atributos, entres esses o href que é o hiperlink pra onde a âncora está apontando pode ser site, e-mail, telefone... e o target que indica como essa âncora vai ser aberta.
+
+# Imagens
+
+O elemento < img > é bem simples e possui dois elementos obrigatórios: o src e alt. O src é obrigatório e ele guarda o caminho da imagem, o elemento alt mesmo não sendo obrigatório é altamente recomendado para acessibilidade, ele mostra a descrição da foto.
+
+# Listas
+
+< ul > - ordem dos itens não é importante;
+
+< ol > - ordem dos itens é importante;
+
+< li > - elementos da lista.
+
+# Introdução ao CSS3
