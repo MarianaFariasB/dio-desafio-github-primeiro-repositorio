@@ -1,0 +1,31 @@
+# Semântica
+
+##### Section
+
+Representa uma seção genérica de conteúdo como uma lista de artigos.
+
+##### Header
+
+Cabeçalho  da página ou de parte da página.
+
+##### Article
+
+Representa um conteúdo relevante dentro da página como o artigo de um blog.
+
+##### Aside
+
+Representa o conteúdo de maior relevância da página.
+
+##### Footer
+
+Pode ser rodapé da página ou de parte dela.
+
+##### < h1 >-< h6 >
+
+Não foram criados na versão 5, mas servem muito bem no propósito de trazer semântica porque eles representam a importância de um título dentro de uma página. O h1 pode ser o título de uma página, o h2 uma section, o h3 o artigo, e assim por diante... pode usar como bem entender, mas só pode ter um h1 por página.
+
+# Textos e Links
+
+< h1 > - < h6 > são essenciais pra indicar visualmente a importância e localização de seções de texto na página. Mas para textos maiores e mais densos, utilizamos o elemento < p > que significa parágrafo e suporta outros elementos além de texto.
+
+Outro elemento muito interessante e extremamente necessário na web é o < a > que é uma âncora e interliga vários conteúdos na web. O elemento < a > tem vários atributos, entres esses o href que é o hiperlink pra onde a âncora está apontando pode ser site, e-mail, telefone... e o target que indica como essa âncora vai ser aberta.
