@@ -43,3 +43,42 @@ O elemento < img > é bem simples e possui dois elementos obrigatórios: o src e
 < li > - elementos da lista.
 
 # Introdução ao CSS3
+
+Após a criação do HTML a necessidade de formatar página ficou evidente, então em 1996 criou-se o CSS3. A sintaxe é bem simples e pode ser resumida com a frase: você cria regras de estilo para elementos ou grupo de elementos. 
+
+É formada por um seletor ou grupo de seletores (elementos do HTML) e dentro do par de chaves possui as declarações com uma propriedade e valor. Exemplo:
+
+a, p, h1, h3 {
+
+color: blue;
+
+font-size: 14px;
+
+}
+
+No exemplo anterior, essa regra CSS altera vários elementos HTML de uma só vez, diretamente. Mas isso significa que qualquer elemento daquela página que seja do mesmo tipo, vai ter a mesma aparência. Normalmente temos sites mais complexos que demandam várias regras pra elementos do mesmo tipo. Ai que entram os id e class que podem representar quaisquer tipos de elementos.
+
+No CSS uma classe é precedida por um "." e um id por uma "#" e um id só pode ser usada uma vez por página. Exemplo:
+
+.header {
+
+padding: 10px;
+
+}
+
+#header{
+
+padding: 15px;
+
+}
+
+##### Box model
+
+Margin: espaçamentos entre elementos;
+
+Border: circunda o padding e content, consegue alterar as características dela como largura e cor;
+
+Padding: espaçamento entre a borda e content;
+
+Content: o que o bloco representa (texto, imagem, vídeo...).
+
