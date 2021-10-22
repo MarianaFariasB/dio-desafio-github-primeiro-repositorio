@@ -24,17 +24,17 @@ Pode ser rodapé da página ou de parte dela.
 
 Não foram criados na versão 5, mas servem muito bem no propósito de trazer semântica porque eles representam a importância de um título dentro de uma página. O h1 pode ser o título de uma página, o h2 uma section, o h3 o artigo, e assim por diante... pode usar como bem entender, mas só pode ter um h1 por página.
 
-# Textos e Links
+##### Textos e links
 
 < h1 > - < h6 > são essenciais pra indicar visualmente a importância e localização de seções de texto na página. Mas para textos maiores e mais densos, utilizamos o elemento < p > que significa parágrafo e suporta outros elementos além de texto.
 
 Outro elemento muito interessante e extremamente necessário na web é o < a > que é uma âncora e interliga vários conteúdos na web. O elemento < a > tem vários atributos, entres esses o href que é o hiperlink pra onde a âncora está apontando pode ser site, e-mail, telefone... e o target que indica como essa âncora vai ser aberta.
 
-# Imagens
+##### Imagens
 
 O elemento < img > é bem simples e possui dois elementos obrigatórios: o src e alt. O src é obrigatório e ele guarda o caminho da imagem, o elemento alt mesmo não sendo obrigatório é altamente recomendado para acessibilidade, ele mostra a descrição da foto.
 
-# Listas
+##### Listas
 
 < ul > - ordem dos itens não é importante;
 
@@ -58,7 +58,7 @@ font-size: 14px;
 
 No exemplo anterior, essa regra CSS altera vários elementos HTML de uma só vez, diretamente. Mas isso significa que qualquer elemento daquela página que seja do mesmo tipo, vai ter a mesma aparência. Normalmente temos sites mais complexos que demandam várias regras pra elementos do mesmo tipo. Ai que entram os id e class que podem representar quaisquer tipos de elementos.
 
-No CSS uma classe é precedida por um "." e um id por uma "#" e um id só pode ser usada uma vez por página. Exemplo:
+No CSS uma class é precedida por um "." e um id por uma "#" e um id só pode ser usada uma vez por página. Exemplo:
 
 .header {
 
@@ -81,4 +81,84 @@ Border: circunda o padding e content, consegue alterar as características dela 
 Padding: espaçamento entre a borda e content;
 
 Content: o que o bloco representa (texto, imagem, vídeo...).
+
+##### Padding
+
+Há duas formas de declarar lados do padding, seja declarando cada lado ou em um padding só respeitando a ordem de: cima, direita, inferior e esquerda.
+
+##### Background
+
+Pode ser usada com o nome da cor em inglês ou o hexadecimal. 
+
+##### Border
+
+Largura: pixels, centímetros, milímetros...;
+
+Cor: nome da cor em inglês ou hexadecimal;
+
+Estilo: solid (sólida), dotted (pontilhada), dashed (tracejada). 
+
+##### Border-radius
+
+Permite arredondar os cantos dos elementos. As unidades mais comuns são os pixels e porcentagem. Para arredondar um quadrado, pode deixar em 50%.
+
+##### font-family
+
+Altera a fonte do texto. E pode ser usada fonte da web ou instalada na máquina.
+
+##### font-size
+
+Altera o tamanho do texto, geralmente usada em pixels.
+
+##### font-style
+
+Muda a aparência do texto. O valor normal é o padrão. 
+
+##### font-weight
+
+Altera o peso do texto.
+
+##### text-transform
+
+Altera o texto entre maiúscula e minúscula.
+
+Uppercase: tudo em caixa alta;
+
+Lowercase: tudo em caixa baixa;
+
+Capitalize: primeiras letras de cada palavra em maiúsculo.
+
+##### text-decoration
+
+Usado pra dar destaque no texto. Pois coloca linhas.
+
+underline: linha abaixo da palavra;
+
+overline: linha acima da palavra;
+
+line-through: linha cortando a palavra.
+
+##### list-style-type
+
+Altera os marcadores das listas.
+
+square: altera o símbolo de uma lista não ordenada (ul) para um quadrado;
+
+upper-roman: altera os números de uma lista ordenada (ol) para algarismos romanos maiúsculos;
+
+Pode também mudar a lista não ordenada para um símbolo com "(código do símbolo)". E usamdo list-style-image, pode colocar imagem como marcador com: url("imagem").
+
+##### Dimensão e alinhamento
+
+Width: largura
+
+Height: altura
+
+Max-width: largura máxima, se ajusta dependendo da situação
+
+Max-height: altura máxima
+
+Margin: serve para colocar espaçamento entre elementos, mas tem o valor "auto" e serve pra alinhar um elemento automaticamente
+
+Text align: serve pra alinhar texto. A esquerda com left, a direita com right, ao centro com center e justificar com justify.
 
